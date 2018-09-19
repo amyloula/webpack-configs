@@ -13,8 +13,8 @@ const DIST_DIR = 'static/';
 
 module.exports = [{
     entry: {
-        ExampleSASSFile: './sass/shell.scss',
-        ExampleLESSFile: './sass/graphs.scss'
+        ExampleSASSFile: './sass/example.scss',
+        ExampleLESSFile: './sass/example.scss'
     },
     output: {
         path: path.resolve('./static/dist/css'),
